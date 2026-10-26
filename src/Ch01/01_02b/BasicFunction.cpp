@@ -47,4 +47,20 @@ int main(){
 
 // ; alla statements slutas med en (;) stetments börja på undre raden efter ({)
 
+//Satements and Expressions
+/** Statemant är en enhet av kod som utför handling med en semicolon (;) som säger till compilern att Statement är klar
+ * Expression är en kombination av constants, variables, och operators som return values kan också användas till mer complexa kombinationer som multi operations och varibales 
+ *  int main(){
+ *      int a = 5;     // Declartion statement
+ *      int b = 3;     // Declartion statement
+ *      int c = a + b; // Declartion statement with an expression
+ * 
+ *      if (c > 5) {   // Conditional statement with an exprassion
+ *          std::cout << "c is greater than 5";   // Output statement
+ *      }
+ * 
+ *      return 0;      // Return statement
+ * }
+ */
+
  
