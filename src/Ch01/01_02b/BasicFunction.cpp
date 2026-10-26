@@ -62,5 +62,30 @@ int main(){
  *      return 0;      // Return statement
  * }
  */
+/** Identifiers
+ *  är namn för variablar, funktioner, types, classes, etc
+ *  dom är även begränsade med bokstäver, nummer och underscores
+ *  kan ej vara samma som vilken resaverad ord i språket
+ *  
+ *  Valid Characters
+ *  ord från (a-z, A-Z) men inga speciela chraktärer
+ *  nummer från (0-9)
+ *  kan också ha Underscore (_)
+ *  Identifiers kan inte börja med ett nummer
+ *  Exempel: player_sprite_2, playerSprite2
+ 
+ *  C++ Keywords
+ *  kan inte matcha med några av språkets resaverad ord eller keywords som int, float, double, char, bool, if, else, switch, case, default, for, while, do, return, void, class, struct, public, private,         protected, virtuel, nes, delete, const, static, namespace, using, try, catch, throw, nullptr är någr av dom för mer http://en.cppreference.com
+ * 
+ *  C++ Case-Sensitive
+ *  speed är inte samma som SPEED alltså alla ord med små bokstäver inte samma som ord med alla stora bokstäver
+ *  lives och Lives är 2 olika Identifiers pågrund av lite och stor bokstav
+ *  samma som x och X
+ *  kan vara begränsat till 32 characters ha Identifers korta
+ * 
+ *  Best Practices
+ *  använd meningsfulla namn (Lives istället för my_int)
+ *  missbruka inte case sensitivity kan blanda ihop dom lätt
+ */
 
  
