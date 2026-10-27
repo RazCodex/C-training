@@ -87,5 +87,26 @@ int main(){
  *  använd meningsfulla namn (Lives istället för my_int)
  *  missbruka inte case sensitivity kan blanda ihop dom lätt
  */
+/** Modeling
+ * En model är en presentation av verkligheten
+ * Modeling är viktigt för objekt-orienterad programmering
+ * vi model allt ex en person, bil eller djur
+*/
+/** Encapsulation
+ *  Encapsulation behåller data och operations inom modelen
+ * modelen måste bara innehålla info om sig själv
+ *  operations most vara concises (ome ne funktion ska göra A och B så är det bara det den ska göra)
+ */
+/** Classes
+ * C++ konstruktions model
+ * Classes innehåller members av 2 typer: data och funktioner
+ * fun fact en instance är class kallad som objekt
+*/
+/** Access Specifiers
+ * Members är antigen public eller private
+ * public Members har tillgång till vilken del som helst i koden inom classen
+ * Private members har tillgång enbart inom class
+ * Protected members har tillgång till ärvd class
+ */
 
  
