@@ -45,6 +45,10 @@ int main(){
 
 // () är bodyn för funktionen där programets funktion utförs
 
+// << operation är kallad insertion operation använd för att skicka data till en output som t.ex visas på en skärm
+
+// >> operations är kallad för extraction operation och används för att få in data från en input t.ex ett tagentbord
+
 // ; alla statements slutas med en (;) stetments börja på undre raden efter ({)
 
 //Satements and Expressions
@@ -108,5 +112,42 @@ int main(){
  * Private members har tillgång enbart inom class
  * Protected members har tillgång till ärvd class
  */
+/**  */
+
+ #include <iostream>
+
+ int main(){
+    std::cout << "Hi There!" << std::endl;
+
+    std::cout << std::endl << std::endl;
+    return 0;
+ }
+
+ #include <iostream>
+
+ int main(){
+    int age;
+    std::cout <<"Enter your age: ";
+    std::cin >> age;
+    std::cout << "you are " << age << " years old." << std::endl;
+    return 0;
+ }
+
+ /** C++ Standard Template Library and Headers
+  * Containers: är ex std::vector, std::list och std::map.
+  * Algorithms FUnctions är av sortering, sökning och manipulering av data
+  * Iterators: objekt som tillåter dig korsa containers
+  *  
+  *  Headers
+  * <vector> Definierar vektorn container class, del av STL
+  * <algorithm>: tilldela stor del av algrorithms för sortering, söknin och maniplation av data
+  * <memory>: inkludera smarta pointers som shared_ptr och unique_ptr
+  * <fstream>: inkludera file stream classes för fil input och output
+  * <locale>: tilldela lokilaserings funktioner
+  * <thread>: inkludera classes och functions för skapning och managing threads.
+  * <mutex>: erbjuder mutual exclusion primitiver för thread synkronisering
+  */
+
+
 
  
